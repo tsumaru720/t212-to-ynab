@@ -1,0 +1,11 @@
+{
+  "name": "Trading212 to YNAB CSV Converter",
+  "image": "mcr.microsoft.com/devcontainers/go:1.23",
+  "features": {},
+  "settings": {
+    "go.toolsManagement.checkForUpdates": "local",
+    "go.useLanguageServer": true
+  },
+  "postCreateCommand": "go version",
+  "remoteUser": "vscode"
+}
